@@ -1,0 +1,13 @@
+/* Congo's badge shortcode wraps each badge in its own <span class="flex">,
+   which is a block-level flex container by default, so consecutive badges
+   stack on separate lines. Wrapping a group of badges in .badge-group and
+   switching those inner spans to inline-flex lets them wrap onto the same
+   line naturally. */
+.badge-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+.badge-group span.flex {
+  display: inline-flex;
+}

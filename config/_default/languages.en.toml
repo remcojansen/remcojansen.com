@@ -1,0 +1,20 @@
+locale = "en"
+label = "English"
+direction = "ltr"
+weight = 1
+
+title = "Home"
+
+[params]
+  dateFormat = "January 2, 2006"
+
+  description = "Remco Jansen"
+
+[params.author]
+  name = "Remco Jansen"
+  image = "img/author.jpg"
+  headline = "Software engineer and leader with focus on IAM"
+  links = [
+    { github = "https://github.com/remcojansen" },
+    { linkedin = "https://linkedin.com/in/remcokjansen" },
+  ]
