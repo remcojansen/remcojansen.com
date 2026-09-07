@@ -14,7 +14,7 @@ A command-line client for running OIDC flows, useful for testing and debugging i
 
 A migration tool built around a canonical client format, making it easier to move OpenID/OAuth client configurations between identity providers.
 
-[View on GitHub](https://github.com/remcojansen/openid-client-migration)
+[View on GitHub](https://github.com/remcojansen/oidc-client-migration)
 
 ### Keycloak
 

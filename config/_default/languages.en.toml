@@ -3,11 +3,9 @@ label = "English"
 direction = "ltr"
 weight = 1
 
-title = "Home"
+title = "Remco Jansen"
 
 [params]
-  dateFormat = "January 2, 2006"
-
   description = "Remco Jansen"
 
 [params.author]
